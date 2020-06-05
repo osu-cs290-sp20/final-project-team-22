@@ -16,9 +16,7 @@ function login()
 }
 
 function random_pic()
-{
-	document.getElementById('myImg').style.display = 'inline';	
-	
+{	
 	//redirects domain after clicking the start button
 	window.location.pathname = '/start';
 }
