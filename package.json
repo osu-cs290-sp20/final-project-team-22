@@ -1,0 +1,31 @@
+{
+  "name": "final-project-team-22",
+  "version": "1.0.0",
+  "description": "Final project\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[P\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CFor TEam 22\u001b[D\u001b[D\u001b[D\u001b[D\u001b[e",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "handlebars views/partials/cityCard.handlebars -f public/cityCardTemplate.js",
+    "prestart": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs290-sp20/final-project-team-22.git"
+  },
+  "keywords": [
+    "final",
+    "project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osu-cs290-sp20/final-project-team-22/issues"
+  },
+  "homepage": "https://github.com/osu-cs290-sp20/final-project-team-22#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "handlebars": "^4.7.6"
+  }
+}
