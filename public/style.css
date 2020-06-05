@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body
 {
 background-image: url(images/background.jpg);
@@ -71,4 +72,73 @@ h1
     width: 400px;
     height: 400px;
     margin-left: 200px;
+=======
+body
+{
+background-image: url(images/background.jpg);
+/* Source: http://www.shadedrelief.com/physical/data/wall/wall3.jpg */
+
+}
+
+
+h1
+{
+
+    font-family: 'MV Boli', 'Calibri', Helvetica;;
+	font-size: 100px;
+	font-weight: normal;
+    font-style: normal;
+    color: yellow;;
+	margin-left: 350px;
+   
+}
+
+#intro
+{
+	color: red;
+	font-size: 25px;
+	margin-left: 300px;
+}
+
+#name-input 
+{
+    background: #eeeeee;
+    font-size: 30px;
+	position: absolute;
+	margin-left: 500px;
+}
+
+#login-button
+{
+	font-size: 30px;
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 50px;
+}
+
+#username
+{
+	color: #0001cc;
+	font-size: 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#r-button
+{
+	font-size: 30px;
+	margin-left: 650px;
+}
+
+#myImg {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  position: absolute;
+  top: 400px;
+  left: 650px;
+  
+>>>>>>> 6c61e97e51d1f0ef4f273bdd53f4674991d62201
 }
