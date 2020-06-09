@@ -1,27 +1,20 @@
 <section class="city-card">
-    <div class="image-container">
+    
+    <div class="caption" >
+        Which city is this? 
+    </div>
+	
+	<div class = "answer">
+	{{caption}}
+	</div>
+	
+	
+	<input id="text-entry">
+	<button id="submit-answer">Submit Answer</button>
+	
+	
+	<div class="image-container">
         <img class="city-image" src="{{photoURL}}" />
     </div>
-    <div class="caption">
-        Which city is this?
-    </div>
-	<label class="container">{{caption}}
-		<input type="checkbox" checked="checked">
-		<span class="checkmark"></span>
-	</label>
-
-	<label class="container">{{caption}}
-	<input type="checkbox">
-	<span class="checkmark"></span>
-	</label>
-
-	<label class="container">{{caption}}
-		<input type="checkbox">
-		<span class="checkmark"></span>
-	</label>
-
-	<label class="container">{{caption}}
-		<input type="checkbox">
-		<span class="checkmark"></span>
-	</label>
+	
 </section>
