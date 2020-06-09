@@ -20,7 +20,7 @@ h1
 
 #intro
 {
-	color: red;
+	color: yellow;
 	font-size: 25px;
 	margin-left: 300px;
 }
@@ -56,8 +56,44 @@ h1
 	margin-left: 650px;
 }
 
-.city-container {
-    width: 400px;
-    height: 400px;
+
+#select-choices
+{
+	display:inline;
+	font-size: 20px;
+	position: absolute;
+	margin-left:500px;
+}
+
+#select-button
+{
+	font-size: 20px;
+	margin-left: 800px;
+	margin-top: 100px;
+}
+
+.city-container 
+{
+	
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+	
+	
+}
+
+.image-container
+{
+	max-width: 10px;
+    
     margin-left: 200px;
+	margin-top: 150px;
+	border-radius: 50%;
+	width: 100%;
+	
+	display: inline-block;
 }
