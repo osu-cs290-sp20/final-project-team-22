@@ -72,6 +72,34 @@ h1
 	margin-top: 100px;
 }
 
+.city-card .caption
+{
+	font-size: 30px;
+	color: blue;
+	margin-left: 600px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+.city-card #text-entry
+{
+	font-size: 30px;
+	color: green;
+	margin-left: 600px;
+}
+
+.city-card #submit-answer
+{
+	font-size: 20px;
+	color: red;
+	margin-left: 600px;
+}
+
+.city-card .answer
+{
+	display: None;
+}
+
 .city-container 
 {
 	

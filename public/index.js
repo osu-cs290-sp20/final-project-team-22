@@ -1,3 +1,9 @@
+try
+{
+var city = document.querySelector(".city-card .answer").innerText;
+}
+catch{}
+
 function login() 
 {
 	// User input name
@@ -21,10 +27,47 @@ function random_pic()
 	window.location.pathname = '/start';
 }
 
+function click_answer()
+{
+	var keyword = document.getElementById('text-entry').value;
+	console.log('Your answer: ',keyword);
+	console.log('Answered', city);
+	if (keyword == city)
+	{
+		console.log('correct');
+		alert('Correct! This city is ', city)
+	
+	}
+	else
+	{
+		console.log('not correct');
+		alert('Incorrect!')
+	}
+}
+
 //Click buttons
+try
+{
 document.getElementById('login-button').addEventListener('click', login);
+}
+catch{}
+
+try
+{
 document.getElementById('r-button').addEventListener('click', random_pic);
+}
+catch{}
+
+try
+{
+document.getElementById('submit-answer').addEventListener('click', click_answer);
+}
+catch{}
 
 
 //Default element setting disappear until action taken
+try
+{
 document.getElementById('r-button').style.display = 'none';
+}
+catch{}
