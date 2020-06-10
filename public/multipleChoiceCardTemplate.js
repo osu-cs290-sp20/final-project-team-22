@@ -8,8 +8,8 @@ templates['multipleChoiceCard'] = template({"compiler":[8,">= 4.3.0"],"main":fun
         return undefined
     };
 
-  return "<section class=\"mutipleChoiceBox\">\r\n    <ul class = \"choicelist\">\r\n        <li>First State</li>\r\n        <li>Another State</li>\r\n        <li>Some State</li>\r\n        <li>"
-    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"state") || (depth0 != null ? lookupProperty(depth0,"state") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"state","hash":{},"data":data,"loc":{"start":{"line":6,"column":12},"end":{"line":6,"column":21}}}) : helper)))
-    + "</li>\r\n    </ul>\r\n</section>";
+  return "<section class=\"mutipleChoiceBox\">\r\n    <div class=\"choicelist\">\r\n      <label for=\"one\">\r\n        <input type=\"checkbox\" id=\"one\" />"
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"city") || (depth0 != null ? lookupProperty(depth0,"city") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"city","hash":{},"data":data,"loc":{"start":{"line":4,"column":42},"end":{"line":4,"column":50}}}) : helper)))
+    + "</label>\r\n      <label for=\"two\">\r\n        <input type=\"checkbox\" id=\"two\" />Second checkbox</label>\r\n      <label for=\"three\">\r\n        <input type=\"checkbox\" id=\"three\" />Third checkbox</label>\r\n    </div>\r\n  </div>\r\n</section>";
 },"useData":true});
 })();

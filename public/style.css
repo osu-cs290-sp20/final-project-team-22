@@ -214,3 +214,21 @@ h1
     display: inline-block;
     color: purple;
 }
+
+.multiselect
+{
+    width: 200px;
+}
+
+#checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+  }
+  
+  #checkboxes label {
+    display: block;
+  }
+  
+  #checkboxes label:hover {
+    background-color: #1e90ff;
+  }

@@ -29,20 +29,22 @@ function random_pic()
 
 function click_answer()
 {
-	var keyword = document.getElementById('text-entry').value;
-	console.log('Your answer: ',keyword);
-	console.log('Answered', city);
-	if (keyword == city)
-	{
-		console.log('correct');
-		alert('Correct! This city is ', city)
-	
-	}
-	else
-	{
-		console.log('not correct');
-		alert('Incorrect!')
-	}
+	//add functionality here
+	window.location.pathname = '/start';
+}
+
+//Add a counter for highscores each time an answer is selected
+
+function click_button_1() {
+	window.location.pathname = '/start';
+}
+
+function click_button_2() {
+	window.location.pathname = '/start';
+}
+
+function click_button_3() {
+	window.location.pathname = '/start';
 }
 
 //Click buttons
@@ -64,7 +66,20 @@ document.getElementById('submit-answer').addEventListener('click', click_answer)
 }
 catch{}
 
+try{
+document.getElementById('one').addEventListener('click', click_button_1);
+}
+catch{}
 
+try{
+document.getElementById('two').addEventListener('click', click_button_2);
+}
+catch{}
+
+try{
+document.getElementById('three').addEventListener('click', click_button_3);
+}
+catch{}
 //Default element setting disappear until action taken
 try
 {
