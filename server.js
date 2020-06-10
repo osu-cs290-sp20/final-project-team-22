@@ -26,6 +26,10 @@ app.get('/start', function(req, res){
     res.status(200).render('start', cityData[rand]);
 });
 
+app.get('/highscores', function(req, res){
+    res.status(200).render('highScore');
+});
+
 //serves public files
 app.use(express.static('public'));
 
