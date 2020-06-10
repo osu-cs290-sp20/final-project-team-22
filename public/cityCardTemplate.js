@@ -8,10 +8,10 @@ templates['cityCard'] = template({"compiler":[8,">= 4.3.0"],"main":function(cont
         return undefined
     };
 
-  return "<section class=\"city-card\">\n    \n    <div class=\"caption\" >\n        Which city is this? \n    </div>\n	\n	<div class = \"answer\">\n	"
-    + alias4(((helper = (helper = lookupProperty(helpers,"caption") || (depth0 != null ? lookupProperty(depth0,"caption") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"caption","hash":{},"data":data,"loc":{"start":{"line":8,"column":1},"end":{"line":8,"column":12}}}) : helper)))
-    + "\n	</div>\n	\n	\n	<input id=\"text-entry\">\n	<button id=\"submit-answer\">Submit Answer</button>\n	\n	\n	<div class=\"image-container\">\n        <img class=\"city-image\" src=\""
-    + alias4(((helper = (helper = lookupProperty(helpers,"photoURL") || (depth0 != null ? lookupProperty(depth0,"photoURL") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"photoURL","hash":{},"data":data,"loc":{"start":{"line":17,"column":37},"end":{"line":17,"column":49}}}) : helper)))
-    + "\" />\n    </div>\n	\n</section>";
+  return "<section class=\"city-card\">\n    <div class = \"answer\">\n        "
+    + alias4(((helper = (helper = lookupProperty(helpers,"caption") || (depth0 != null ? lookupProperty(depth0,"caption") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"caption","hash":{},"data":data,"loc":{"start":{"line":3,"column":8},"end":{"line":3,"column":19}}}) : helper)))
+    + "\n    </div>\n\n    <div class=\"image-container\">\n        <img class=\"city-image\" src=\""
+    + alias4(((helper = (helper = lookupProperty(helpers,"photoURL") || (depth0 != null ? lookupProperty(depth0,"photoURL") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"photoURL","hash":{},"data":data,"loc":{"start":{"line":7,"column":37},"end":{"line":7,"column":49}}}) : helper)))
+    + "\" />\n    </div>	\n</section>\n";
 },"useData":true});
 })();

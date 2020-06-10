@@ -1,11 +1,22 @@
+<header>
+		
+     <script src="/cityCardTemplate.js" charset="utf-8" defer></script>
+     <script src="/index.js" charset="utf-8" defer></script>
+
+</header>
+
 <!-- First page with welcome message, username box, go button, and start button. Atleast so far-->
 <!-- Currently all of index.js controls this content -->		
-
-<p id='intro' >Welcome to the City Guess Game! Enter your name and options to continute.</p>
-<input type="text" id="name-input" placeholder="Your Name">
-<!-- <button id = "login-button" onclick="window.location.replace('game.html')">Go</button> -->
-<button id = "login-button">Go</button>
-<div id="username"></div>
-
-<button id = "r-button">Click to Start</button>
-<!-- <img src= 'images/test1.jpg' id = 'myImg'> -->
+<div class="content">
+    <div class="content-header">
+        <p id='intro'>Welcome to the City Guess Game! Enter your name and options to continue.</p>
+    </div>
+    <div class="input">
+        <div class="login">
+            <input type="text" id="name-input" placeholder="Your Name">
+            <button id = "login-button">Go</button>
+            <div id="username"></div>
+            <button id = "r-button">Click to Start</button>
+        </div>
+    </div>
+</div>
