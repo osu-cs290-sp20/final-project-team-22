@@ -3,6 +3,9 @@ var exphbs = require('express-handlebars');
 
 var cityData = require('./cityData.json');
 
+//Temporary code for testing. Should be replaced with MongoDB calls in production
+var scoreData = require('./testScoreData.json');
+
 var app = express();
 
 //I set it to 9000, hopefully this will work on your devices. If not, easy to change.
@@ -10,6 +13,15 @@ var port = process.env.PORT || 9000;
 
 app.engine('handlebars', exphbs({ defaultLayout: 'mainPage'}));
 app.set('view engine', 'handlebars');
+
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://QxnWrw6QzWvQvTm8:<password>@cluster0-aqhqf.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});
 
 //front page for site. What the user first sees and navigates through to start the game. 
 app.get('/', function(req, res){
@@ -38,7 +50,7 @@ app.get('/start', function(req, res){
 });
 
 app.get('/highscores', function(req, res){
-    res.status(200).render('highScore');
+    res.status(200).render('highScore', { allScores: scoreData });
 });
 
 //serves public files

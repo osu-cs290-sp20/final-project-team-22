@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "handlebars views/partials/multipleChoiceCard.handlebars -f public/multipleChoiceCardTemplate.js",
+    "build": "handlebars views/partials/cityCard.handlebars -f public/cityCardTemplate.js && handlebars views/partials/scoreCard.handlebars -f public/scoreCardTemplate.js",
     "prestart": "npm run build"
   },
   "repository": {
@@ -26,6 +26,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.6",
+    "mongodb": "^3.5.8"
   }
 }
