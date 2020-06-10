@@ -1,202 +1,252 @@
 [
 	{
+        "state": "New York",
         "photoURL": "https://en.m.wikipedia.org/wiki/New_York_City#/media/File%3ALower_Manhattan_skyline_-_June_2017.jpg",
-        "caption": "Lower Manhattan/New York"
+        "city": "Lower Manhattan/New York"
     },
 	{
+        "state": "California",
         "photoURL": "https://en.m.wikipedia.org/wiki/Los_Angeles#/media/File%3AVenice_Beach%2C_Los_Angeles%2C_CA_01_(cropped).jpg",
-        "caption": "Los Angeles"
+        "city": "Los Angeles"
     },
 	{
+        "state": "Illinois",
         "photoURL": "https://media.timeout.com/images/105647051/630/472/image.jpg",
-        "caption": "Chicago"
+        "city": "Chicago"
     },
 	{
+        "state": "Texas",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Houston_from_Sabine_Park.jpg/600px-Houston_from_Sabine_Park.jpg",
-        "caption": "Houston"
+        "city": "Houston"
     },
 	{
+        "state": "Arizona",        
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Phoenix_AZ_Downtown_from_airplane.jpg/1365px-Phoenix_AZ_Downtown_from_airplane.jpg",
-        "caption": "Phoenix"
+        "city": "Phoenix"
     },
 	{
+        "state": "Pennsylvania",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Philadelphia_from_South_Street_Bridge_July_2016_panorama_3b.jpg/1200px-Philadelphia_from_South_Street_Bridge_July_2016_panorama_3b.jpg",
-        "caption": "Philidelphia"
+        "city": "Philidelphia"
     },
 	{
+        "state": "Texas",
         "photoURL": "https://res.cloudinary.com/culturemap-com/image/upload/ar_4:3,c_fill,g_faces:center,w_1200/v1576854360/photos/308230_original.jpg",
-        "caption": "San Antonio"
+        "city": "San Antonio"
     },
 	{
+        "state": "California",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/San_Diego_Skyline_Night_JD081107.jpg/1000px-San_Diego_Skyline_Night_JD081107.jpg",
-        "caption": "San Diego"
+        "city": "San Diego"
     },
 	{
+        "state": "Texas",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Dallas_bridge_skyline.jpg/220px-Dallas_bridge_skyline.jpg",
-        "caption": "Dallas"
+        "city": "Dallas"
     },
 	{
+        "state": "California",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Panoramic_Downtown_San_Jose.jpg/1500px-Panoramic_Downtown_San_Jose.jpg",
-        "caption": "San Jose"
+        "city": "San Jose"
     },
 	{
+        "state": "Texas",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Austin_panorama_2018.png/1100px-Austin_panorama_2018.png",
-        "caption": "Austin"
+        "city": "Austin"
     },
 	{
+        "state": "Florida",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/JaxpanoAcosta.png/1600px-JaxpanoAcosta.png",
-        "caption": "Jacksonville"
+        "city": "Jacksonville"
     },
 	{
+        "state": "Texas",
         "photoURL": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/UkoBrEz4zSIERx5sOq3zgITgVyE=/1660x934/smart/filters:no_upscale()/arc-anglerfish-arc2-prod-dmn.s3.amazonaws.com/public/7TNJQEBZFQDOGEQHSUASMWO5RY.jpg",
-        "caption": "Fort Worth"
+        "city": "Fort Worth"
     },	
 	{
+        "state": "Ohio",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Columbus_Pano_2.jpg/660px-Columbus_Pano_2.jpg",
-        "caption": "Columbus"
+        "city": "Columbus"
     },	
 	{
+        "state": "North Carolina",
         "photoURL": "https://www.wbtv.com/resizer/afpi3LqCsszPOG8ifeFEQPAmzHw=/1200x600/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/C54DHW4RRJEP3JJUVRWQYE2ITE.jpg",
-        "caption": "Charlotte"
+        "city": "Charlotte"
     },	
 	{
+        "state": "California",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/SanFrancisco_from_TwinPeaks_dusk_MC.jpg/1680px-SanFrancisco_from_TwinPeaks_dusk_MC.jpg",
-        "caption": "San Francisco"
+        "city": "San Francisco"
     },	
 	{
+        "state": "Indiana",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Panorama_of_downtown_Indianapolis_skyline%2C_July_2016.jpg/1200px-Panorama_of_downtown_Indianapolis_skyline%2C_July_2016.jpg",
-        "caption": "Indianapolis"
+        "city": "Indianapolis"
     },	
 	{
+        "state": "Washington",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Downtown_Seattle_skyline_from_Kerry_Park_-_October_2019.jpg/1920px-Downtown_Seattle_skyline_from_Kerry_Park_-_October_2019.jpg",
-        "caption": "Seattle"
+        "city": "Seattle"
     },	
 	{
+        "state": "Colorado",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Denver_skyline.jpg/1547px-Denver_skyline.jpg",
-        "caption": "Denver"
+        "city": "Denver"
     },	
 	{
+        "state": "District of Columbia",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Washington_Monument%2C_Washington%2C_D.C._04037u_original.jpg/1364px-Washington_Monument%2C_Washington%2C_D.C._04037u_original.jpg",
-        "caption": "Washington DC"
+        "city": "Washington DC"
     },	
 	{
+        "state": "Massachusetts",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Boston_-_panoramio_%2823%29.jpg/1920px-Boston_-_panoramio_%2823%29.jpg",
-        "caption": "Boston"
+        "city": "Boston"
     },	
 	{
+        "state": "Texas",
         "photoURL": "https://cdn.britannica.com/s:700x500/20/117520-050-59AD10ED/El-Paso-Texas.jpg",
-        "caption": "El Paso"
+        "city": "El Paso"
     },	
 	{
+        "state": "Tennessee",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Nashville_panorama_Kaldari_01.jpg/1000px-Nashville_panorama_Kaldari_01.jpg",
-        "caption": "Nashville"
+        "city": "Nashville"
     },	
 	{
+        "state": "Michigan",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Detroit_Skyline_%28123143197%29.jpeg/1000px-Detroit_Skyline_%28123143197%29.jpeg",
-        "caption": "Detroit"
+        "city": "Detroit"
     },	
 	{
+        "state": "Oklahoma",
         "photoURL": "https://www.okcommerce.gov/wp-content/uploads/stock-iStock-513055708-oklahoma-city@1920.jpg",
-        "caption": "Oklahoma City"
+        "city": "Oklahoma City"
     },	
 	{
+        "state": "Oregon",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Portland_and_Mt._Hood_from_Pittock_Mansion.jpg/1920px-Portland_and_Mt._Hood_from_Pittock_Mansion.jpg",
-        "caption": "Portland"
+        "city": "Portland"
     },	
 	{
+        "state": "Nevada",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/DowntownLasVegas.jpg/1587px-DowntownLasVegas.jpg",
-        "caption": "Las Vegas"
+        "city": "Las Vegas"
     },	
 	{
+        "state": "Tennessee",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Panodowntownmemphisfrompyramid.jpg/1920px-Panodowntownmemphisfrompyramid.jpg",
-        "caption": "Memphis"
+        "city": "Memphis"
     },	
 	{
+        "state": "Kentucky",
         "photoURL": "https://www.gannett-cdn.com/presto/2019/09/16/PLOU/18f26ebb-1312-4e61-980d-585795414f2e-DowntownLouisvilleSkyline05.jpg?crop=2999,1687,x0,y152&width=1600&height=800&fit=bounds",
-        "caption": "Louisville"
+        "city": "Louisville"
     },	
 	{
+        "state": "Maryland",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Baltimore-sunset-pano.jpg/1100px-Baltimore-sunset-pano.jpg",
-        "caption": "Baltimore"
+        "city": "Baltimore"
     },	
 	{
+        "state": "Oregon",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Milwaukee_Wisconsin_pano2.jpg/1100px-Milwaukee_Wisconsin_pano2.jpg",
-        "caption": "Milwaukee"
+        "city": "Milwaukee"
     },	
 	{
+        "state": "New Mexico",
         "photoURL": "https://res.cloudinary.com/simpleview/image/upload/v1512614813/clients/albuquerque/Screen_Shot_2017_12_06_at_7_46_24_PM_e08b1282-5f14-4905-9f4b-4db707b9b4ec.png",
-        "caption": "Albuquerque"
+        "city": "Albuquerque"
     },	
 	{
+        "state": "Arizona",
         "photoURL": "https://www.tucsonaz.gov/files/images/newsnet-logo.jpg",
-        "caption": "Tuscon"
+        "city": "Tuscon"
     },
 	{
+        "state": "California",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Downtown_Fresno_Night.png",
-        "caption": "Fresno"
+        "city": "Fresno"
     },	
 	{
+        "state": "Arizona",
         "photoURL": "https://newsroom.churchofjesuschrist.org/media/960x540/18.05.23-Mesa-Blocks-view-01-Revised-052418.jpg",
-        "caption": "Mesa"
+        "city": "Mesa"
     },	
 	{
+        "state": "California",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sacramento_Skyline_%28cropped%29.jpg/1920px-Sacramento_Skyline_%28cropped%29.jpg",
-        "caption": "Sacramento"
+        "city": "Sacramento"
     },	
 	{
+        "state": "Georgia",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Atlanta_Downtown_Skyline.jpg/1000px-Atlanta_Downtown_Skyline.jpg",
-        "caption": "Atlanta"
+        "city": "Atlanta"
     },	
 	{
+        "state": "Kansas",
         "photoURL": "https://ewscripps.brightspotcdn.com/dims4/default/f0666b6/2147483647/strip/true/crop/640x360+0+60/resize/1280x720!/quality/90/?url=https%3A%2F%2Fmediaassets.kshb.com%2Fphoto%2F2017%2F08%2F17%2FDA31245_KSHB_Brown_Crouppen_Brand_Spotlight_640x480_1503002397526_64398543_ver1.0_640_480.jpg",
-        "caption": "Kansas City"
+        "city": "Kansas City"
     },	
 	{
+        "state": "Colorado",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Colorado_springs_downtown.jpg/600px-Colorado_springs_downtown.jpg",
-        "caption": "Colorado Springs"
+        "city": "Colorado Springs"
     },	
 	{
+        "state": "Nebraska",
         "photoURL": "https://live.staticflickr.com/2833/32264253374_d1fda3a0cc_b.jpg",
-        "caption": "Omaha"
+        "city": "Omaha"
     },	
 	{
+        "state": "North Carolina",
         "photoURL": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/raleigh-north-carolina-skyline-brendan-reals.jpg",
-        "caption": "Raleigh"
+        "city": "Raleigh"
     },	
 	{
+        "state": "Florida",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Downtown_Miami_Panorama_from_the_Rusty_Pelican_photo_D_Ramey_Logan.jpg/1030px-Downtown_Miami_Panorama_from_the_Rusty_Pelican_photo_D_Ramey_Logan.jpg",
-        "caption": "Miami"
+        "city": "Miami"
     },	
 	{
+        "state": "California",
         "photoURL": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/long-beach-skyline-edward-snow.jpg",
-        "caption": "Long Beach"
+        "city": "Long Beach"
     },	
 	{
+        "state": "Virginia",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Virginia_Beach_from_the_pier.jpg/250px-Virginia_Beach_from_the_pier.jpg",
-        "caption": "Virginia Beach"
+        "city": "Virginia Beach"
     },	
 	{
+        "state": "California",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/OAKLAND%2C_CA%2C_USA_-_Skyline_and_Bridge.JPG/1536px-OAKLAND%2C_CA%2C_USA_-_Skyline_and_Bridge.JPG",
-        "caption": "Oakland"
+        "city": "Oakland"
     },	
 	{
+        "state": "Minnesota",
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Minneapolis_skyline_from_Prospect_Park_Water_Tower%2C_July_2014.jpg/900px-Minneapolis_skyline_from_Prospect_Park_Water_Tower%2C_July_2014.jpg",
-        "caption": "Minneapolis"
+        "city": "Minneapolis"
     },	
 	{
+        "state": "Oklahoma",        
         "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tulsa_skyline_picture.jpg/250px-Tulsa_skyline_picture.jpg",
-        "caption": "Tulsa"
+        "city": "Tulsa"
     },	
 	{
+        "state": "Flordia",        
         "photoURL": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/elongated-tampa-skyline-frozen-in-time-fine-art-photography.jpg",
-        "caption": "Tampa"
+        "city": "Tampa"
     },	
 	{
+        "state": "Texas",        
         "photoURL": "https://www.planetizen.com/files/programs-media/main-image.jpg",
-        "caption": "Arlington"
+        "city": "Arlington"
     },
 	{
+        "state": "Mississippi",        
         "photoURL": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/new-orleans-skyline-at-night-susan-rissi-tregoning.jpg",
-        "caption": "New Orleans"
+        "city": "New Orleans"
     }
 ]
