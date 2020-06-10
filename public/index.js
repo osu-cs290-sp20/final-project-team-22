@@ -1,9 +1,3 @@
-try
-{
-var city = document.querySelector(".city-card .answer").innerText;
-}
-catch{}
-
 function login() 
 {
 	// User input name
@@ -35,15 +29,23 @@ function click_answer()
 
 //Add a counter for highscores each time an answer is selected
 
+var counter = 0;
+
 function click_button_1() {
+	counter++;
+	console.log("Hello World!", counter);
 	window.location.pathname = '/start';
 }
 
 function click_button_2() {
+	counter++;
+	console.log(counter);
 	window.location.pathname = '/start';
 }
 
 function click_button_3() {
+	counter++;
+	console.log(counter);
 	window.location.pathname = '/start';
 }
 

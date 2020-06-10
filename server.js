@@ -16,11 +16,22 @@ app.get('/', function(req, res){
     res.status(200).render('frontPage');
 });
 
+var counter = 0;
+
+
+
 //When a user clicks to start the game, the domain redirects here (the redirection can be found in index.js).
 //The cityData.json file contains information and images.
 //A random number is chosen in this function and the corresponding element in the cityData.json array is passed...
 //...to the start.handlebars page. 
 app.get('/start', function(req, res){
+    
+    counter++;
+
+    if(counter >= 6){
+        res.status(200).render('highScore');
+    }
+
     //Creates a random number between 
     var rand = Math.floor(Math.random() * 50);
     res.status(200).render('start', cityData[rand]);
