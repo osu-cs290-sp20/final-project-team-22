@@ -1,0 +1,29 @@
+<header>
+     <div class="content">
+          <h2>High Scores:</h2>
+     </div>
+</header>
+
+<main class="score-container">
+    {{#each allScores}}
+        {{> scoreCard}}
+    {{/each}}
+</main>
+
+<div class="insert-modal">
+    <div class="username-input">
+        <label for="username-input-box">Username:</label>
+        <input type="text" id="username-input-box">
+    </div>
+    <div class="score-input">
+        <label for="score-input-box">High Score:</label>
+        <input type="number" id="score-input-box">
+    </div>
+
+    <div class="modal-footer">
+        <label class="warning">Please remember that any content entered here is saved to a live MongoDB database!</label>
+        <button type="button" class="modal-accept-button">Save</button>
+    </div>
+</div>
+
+<script src="/highScore.js"></script>
