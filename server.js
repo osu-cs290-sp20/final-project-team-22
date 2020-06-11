@@ -49,13 +49,17 @@ app.get('/start', function(req, res){
     
     counter++;
 
-    if(counter >= 6){
-        
+    if(counter >= 11){
+        return res.redirect('/finalScore');
     }
 
     //Creates a random number between 
     var rand = Math.floor(Math.random() * 50);
     res.status(200).render('start', cityData[rand]);
+});
+
+app.get('/finalScore', function(req, res){
+	res.status(200).render('finalScore');
 });
 
 app.get('/highscores', function(req, res){
