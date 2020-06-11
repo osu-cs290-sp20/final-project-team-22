@@ -1,3 +1,11 @@
+try
+{
+document.getElementById('answer').style.display = 'none';
+var city = document.getElementById("answer").innerText.toLowerCase().trim();
+console.log('Correct answer:', city);
+}
+catch{}
+
 function login() 
 {
 	// User input name
@@ -10,7 +18,6 @@ function login()
 	document.getElementById('name-input').style.display = 'none';
 	document.getElementById('login-button').style.display = 'none';
 	document.getElementById('intro').style.display = 'none';
-	
 	document.getElementById('r-button').style.display = 'inline';
 	
 }
@@ -19,33 +26,25 @@ function random_pic()
 {	
 	//redirects domain after clicking the start button
 	window.location.pathname = '/start';
+	console.log(document.getElementById('answer'));
 }
 
 function click_answer()
 {
-	//add functionality here
-	window.location.pathname = '/start';
-}
+	var keyword = document.getElementById('text-entry').value.toLowerCase();
+	console.log('Your answer: ', keyword);
+	if (keyword == city)
+	{
+		console.log('correct');
+		alert('Correct!');
+	
+	}
+	else
+	{
+		console.log('not correct');
+		alert('Incorrect!')
+	}
 
-//Add a counter for highscores each time an answer is selected
-
-var counter = 0;
-
-function click_button_1() {
-	counter++;
-	console.log("Hello World!", counter);
-	window.location.pathname = '/start';
-}
-
-function click_button_2() {
-	counter++;
-	console.log(counter);
-	window.location.pathname = '/start';
-}
-
-function click_button_3() {
-	counter++;
-	console.log(counter);
 	window.location.pathname = '/start';
 }
 
@@ -68,20 +67,6 @@ document.getElementById('submit-answer').addEventListener('click', click_answer)
 }
 catch{}
 
-try{
-document.getElementById('one').addEventListener('click', click_button_1);
-}
-catch{}
-
-try{
-document.getElementById('two').addEventListener('click', click_button_2);
-}
-catch{}
-
-try{
-document.getElementById('three').addEventListener('click', click_button_3);
-}
-catch{}
 //Default element setting disappear until action taken
 try
 {

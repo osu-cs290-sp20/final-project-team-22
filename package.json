@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "handlebars views/partials/multipleChoiceCard.handlebars -f public/multipleChoiceCardTemplace.js && handlebars views/partials/cityCard.handlebars -f public/cityCardTemplate.js && handlebars views/partials/scoreCard.handlebars -f public/scoreCardTemplate.js",
+    "build": "handlebars views/partials/multipleChoiceCard.handlebars -f public/multipleChoiceCardTemplate.js && handlebars views/partials/cityCard.handlebars -f public/cityCardTemplate.js && handlebars views/partials/scoreCard.handlebars -f public/scoreCardTemplate.js",
     "prestart": "npm run build"
   },
   "repository": {

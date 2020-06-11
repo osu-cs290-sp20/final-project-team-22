@@ -1,5 +1,5 @@
 var topScore = document.getElementsByClassName('score-icon').item(0);
-topScore.innerHTML='<img src="/images/topscore.png">';
+topScore.innerHTML='<img id="topScore" src="/images/topscore.png">';
 
 var saveButton = document.querySelector('.modal-accept-button');
 
