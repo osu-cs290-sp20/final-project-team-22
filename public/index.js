@@ -1,7 +1,6 @@
 try
 {
-document.getElementById('answer').style.display = 'none';
-var city = document.getElementById("answer").innerText.toLowerCase().trim();
+var city = document.getElementById("answer").innerText.toLowerCase();
 console.log('Correct answer:', city);
 }
 catch{}
@@ -9,7 +8,7 @@ catch{}
 function login() 
 {
 	// User input name
-    var name = document.getElementById('name-input').value;
+	   var name = document.getElementById('name-input').value;
     var html = 'Welcome ' + name;
  
     document.getElementById('username').innerHTML = html;
@@ -26,7 +25,6 @@ function random_pic()
 {	
 	//redirects domain after clicking the start button
 	window.location.pathname = '/start';
-	console.log(document.getElementById('answer'));
 }
 
 function click_answer()
@@ -37,16 +35,23 @@ function click_answer()
 	{
 		console.log('correct');
 		alert('Correct!');
-	
+		window.location.pathname = '/start';
+
+	}
+	else if (document.getElementById('text-entry').value == null || document.getElementById('text-entry').value ==""){
+		console.log('No answer inputted');
+		alert('Entry field empty!');
+	}
+	else if (!document.getElementById('text-entry').value.replace(/\s/g, '').length){
+		console.log('Only spaces in the entry field!');
+		alert('Only spaces in the entry field!');
 	}
 	else
 	{
 		console.log('not correct');
 		alert('Incorrect!')
-	}
-
-	window.location.pathname = '/start';
-}
+		window.location.pathname = '/start';
+	}}
 
 //Click buttons
 try
