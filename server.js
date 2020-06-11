@@ -46,12 +46,6 @@ var counter = 0;
 //A random number is chosen in this function and the corresponding element in the cityData.json array is passed...
 //...to the start.handlebars page. 
 app.get('/start', function(req, res){
-    
-    counter++;
-
-    if(counter >= 6){
-        
-    }
 
     //Creates a random number between 
     var rand = Math.floor(Math.random() * 50);

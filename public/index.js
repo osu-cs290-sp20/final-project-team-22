@@ -21,11 +21,39 @@ function random_pic()
 	window.location.pathname = '/start';
 }
 
-function click_answer()
-{
-	//add functionality here
-	window.location.pathname = '/start';
+function createMultipleChoice() {
+	
+	var cityData = require('./cityData.json');
+	var rand = Math.floor(Math.random() * 50);
+
+/*	var cityImage = {
+		city: ,
+		photoURL: "https://placekitten.com/g/50/50"
+	}
+*/
+	var cityHTML = Handlebars.templates.cityCard(cityData[rand]);
+	var contentContainer = document.querySelector('.image-container');
+	
+	while(contentContainer.lastChild){
+		contentContainer.removeChild(contentContainer.lastChild);
+	}
+
+	contentContainer.insertAdjacentHTML("beforeend", cityHTML);
+
+
+	/*
+	var multipleChoiceCardContent = {
+		city: "city",
+		city: "Canada",
+		city: "New Belgium"
+	};
+
+	var multipleChoiceHTML = Handlebars.templates.multipleChoiceCard(multipleChoiceCardContent);
+	var newContainer = document.querySelector(".choice-container");
+	newContainer.insertAdjacentHTML("beforeend", multipleChoiceHTML);
+	*/
 }
+
 
 //Add a counter for highscores each time an answer is selected
 
@@ -33,8 +61,7 @@ var counter = 0;
 
 function click_button_1() {
 	counter++;
-	console.log("Hello World!", counter);
-	window.location.pathname = '/start';
+	createMultipleChoice();
 }
 
 function click_button_2() {
@@ -59,12 +86,6 @@ catch{}
 try
 {
 document.getElementById('r-button').addEventListener('click', random_pic);
-}
-catch{}
-
-try
-{
-document.getElementById('submit-answer').addEventListener('click', click_answer);
 }
 catch{}
 
