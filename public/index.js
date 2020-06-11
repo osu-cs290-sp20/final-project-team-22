@@ -1,6 +1,7 @@
 try
 {
-var city = document.getElementById("answer").innerText.toLowerCase();
+document.getElementById('answer').style.display = 'none';
+var city = document.getElementById("answer").innerText.toLowerCase().trim();
 console.log('Correct answer:', city);
 }
 catch{}
@@ -25,6 +26,7 @@ function random_pic()
 {	
 	//redirects domain after clicking the start button
 	window.location.pathname = '/start';
+	console.log(document.getElementById('answer'));
 }
 
 function click_answer()
