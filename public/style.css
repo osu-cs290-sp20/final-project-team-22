@@ -113,7 +113,7 @@ h1
     font-style: bold;
     font-size: 18px;
     text-align: center;
-    color: white;
+    color: #94cde0;
 }
 
 #text-entry
@@ -211,8 +211,8 @@ h1
 
 .choicelist
 {
-    display: inline-block;
-    color: purple;
+    
+    color: #94cde0;
 }
 
 .multiselect
@@ -230,5 +230,5 @@ h1
   }
   
   #checkboxes label:hover {
-    background-color: #1e90ff;
+    background-color: white;
   }
