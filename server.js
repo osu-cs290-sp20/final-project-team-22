@@ -50,7 +50,7 @@ app.get('/start', function(req, res){
     counter++;
 
     if(counter >= 6){
-        res.status(200).render('finalScore');
+        
     }
 
     //Creates a random number between 

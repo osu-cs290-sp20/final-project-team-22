@@ -305,3 +305,11 @@ h1
   #checkboxes label:hover {
     background-color: white;
   }
+
+  .final
+  {
+    color: white;
+    font-family: 'MV Boli', 'Calibri', Helvetica;
+    font-weight: normal;
+    font-size: 20px; 
+  }
