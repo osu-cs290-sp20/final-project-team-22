@@ -8,10 +8,10 @@ templates['cityCard'] = template({"compiler":[8,">= 4.3.0"],"main":function(cont
         return undefined
     };
 
-  return "<section class=\"city-card\">\r\n    <div class = \"answer\">\r\n        "
+  return "<section class=\"city-card\">\n    <div class = \"answer\">\n        "
     + alias4(((helper = (helper = lookupProperty(helpers,"city") || (depth0 != null ? lookupProperty(depth0,"city") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"city","hash":{},"data":data,"loc":{"start":{"line":3,"column":8},"end":{"line":3,"column":16}}}) : helper)))
-    + "\r\n    </div>\r\n\r\n    <div class=\"image-container\">\r\n        <img class=\"city-image\" src=\""
+    + "\n    </div>\n\n    <div class=\"image-container\">\n        <img class=\"city-image\" src=\""
     + alias4(((helper = (helper = lookupProperty(helpers,"photoURL") || (depth0 != null ? lookupProperty(depth0,"photoURL") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"photoURL","hash":{},"data":data,"loc":{"start":{"line":7,"column":37},"end":{"line":7,"column":49}}}) : helper)))
-    + "\" />\r\n    </div>	\r\n</section>\r\n";
+    + "\" />\n    </div>	\n</section>\n";
 },"useData":true});
 })();

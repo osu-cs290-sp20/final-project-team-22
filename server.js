@@ -19,12 +19,12 @@ const uri = "mongodb+srv://QxnWrw6QzWvQvTm8:W7Q3DBwwnJsFAYC@cluster0-aqhqf.mongo
 const client = new MongoClient(uri, { useNewUrlParser: true });
 client.connect(err => {
   const collection = client.db("CS290").collection("CityGuess");
-
-  var highScores = collection.find({});
+  var highScores = collection.find();
   highScores.toArray(function (err, scores) {
     if (err) {
       res.status(500).send("Error fetching people from DB.");
     } else {
+      scores.sort(function(a, b){return b.score - a.score});
       console.log("Read from database successful");
       console.log(scores);
       scoreData = scores;
