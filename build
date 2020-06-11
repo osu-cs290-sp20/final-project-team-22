@@ -1,0 +1,2 @@
+handlebars views/partials/cityCard.handlebars -f public/cityCardTemplate.js
+handlebars views/partials/scoreCard.handlebars -f /public/scoreCardTemplate.js
